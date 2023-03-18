@@ -1,2 +1,2 @@
 pyinstaller -F -w TimeSyncer.py
-tar -cvf dist/TimeSyncer.zip dist/TimeSyncer.exe
+cd dist && tar -cvf TimeSyncer.zip TimeSyncer.exe
